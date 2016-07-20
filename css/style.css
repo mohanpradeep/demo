@@ -1,0 +1,478 @@
+@import "http://fonts.googleapis.com/css?family=Lato:300,400,700,900";
+
+
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+/*==========================TOP BAR======================================*/
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.top-bar a {
+    color: #fff;
+}
+.ittb-navbar {
+    float: left;
+    left: 0;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.top-bar .list-inline .glyphicon {
+    margin-right: 5px;
+}
+.top-bar .social-menu {
+    float: right;
+}
+.top-bar .social-menu li {
+    padding: 0;
+}
+.top-bar .social-menu li > a {
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    line-height: 25px;
+    position: relative;
+    text-align: center;
+    width: 20px;
+}
+.top-bar .social-menu li a::before {
+    color: #fff;
+    font: 14px/1 FontAwesome;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-decoration: inherit;
+    top: 0;
+}
+.top-bar .social-menu li a.facebook-icon::before {
+    content: "";
+}
+.top-bar .social-menu li a.twitter-icon::before {
+    content: "";
+}
+.top-bar .social-menu li a.google-plus-icon::before {
+    content: "";
+}
+.top-bar .social-menu li a.linkedin-icon::before {
+    content: "";
+}
+#navigation ul.navbar-nav > li > a {
+    color: #1a3b83;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+#navigation ul.navbar-nav > li a.is-active::before, #navigation ul.navbar-nav > li a.is-active::after {
+    width: 0;
+}
+#navigation ul.navbar-nav > li:hover a.is-active::before {
+    background-color: #1a3b83;
+    bottom: -4px;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+/*==========================TOP BAR END======================================*/
+/*==========================NAV BAR======================================*/
+
+.ittb-navbar .logo {
+    margin: 10px 0;
+}
+.ittb-navbar .logo img {
+    height: 60px;
+}
+.navigation nav {
+    float: right;
+    position: relative;
+}
+.navigation .navbar-collapse {
+    background-color: #fff;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.navigation .navbar-collapse::before {
+    background-color: #1a3b83;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 37.5%;
+}
+.navigation .navbar-collapse::after {
+    background-color: #fff;
+    bottom: -4px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+.ittb-navbar {
+    float: left;
+    left: 0;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+/*==========================NAV BAR END======================================*/
+/*==========================MIDDLE CONTENT======================================*/
+.back-img{
+    background-image: url(../images/bg-investor.jpg);
+    background-repeat: no-repeat;
+    height: 960px;
+}
+.invest-head {
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 197px;
+}
+.invest-head h2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+.invest-head h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+.invest-head h4::after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 13px auto 0;
+    text-align: center;
+    width: 14%;
+}
+.input-group.log-email {
+    display: table;
+    margin: 10px auto 0;
+    text-align: center;
+}
+.log-btn {
+    background-color: #f7c107;
+    border: 0 none;
+    color: #000;
+    display: block;
+    margin: 10px auto 0;
+    text-align: center;
+    width: 35%;
+}
+.log-btn:hover {
+    background-color: #f7c107;
+    color: #000;
+}
+.icn-email {
+    background-color: #1e9fd9;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+}
+.login-invest .input-group .form-control {
+    border: 0 none;
+    border-radius: 0;
+    height: 38px;
+    width: 277px;
+    color: #1e9fd9;
+}
+.login-form {
+    background-color: rgba(0, 0, 0, 0.66);
+    margin: 73px auto 0;
+    padding: 10px;
+    width: 487px;
+}
+.login-form h3 {
+    color: #1e9dd6;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.login-form h3::after {
+    background-color: #becad4;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 5px auto 0;
+    text-align: center;
+    width: 44%;
+}
+.icn-email .fa {
+    font-size: 20px;
+    padding: 3px;
+}
+.learn {
+    background-color: rgba(53, 88, 184, 0.84);
+    height: 150px;
+    margin-right: 50px;
+}
+.addrss {
+    display: block;
+    margin: 50px auto 0;
+    width: 100%;
+}
+.cont-phon {
+    background: rgba(247, 193, 6, 0.84) none repeat scroll 0 0;
+    color: #32302b;
+    height: 150px;
+}
+.learn p {
+    font-size: 16px;
+    padding: 37px 45px;
+}
+.cont-phon p {
+    font-size: 18px;
+    margin: 0;
+    padding: 37px 45px;
+}
+
+/*==========================MIDDLE CONTENT END======================================*/
+/*==========================CONTACT======================================*/
+.back-blue{
+    background-image: url(../images/blue-bg.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.back-grey{
+    background-image: url(../images/bg-1.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.cont-head {
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 197px;
+    text-transform: uppercase;
+}
+.cont-up {
+    border-left: 3px solid #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.black {
+    color: #000;
+    font-size: 25px;
+}
+.start-txt {
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.mld-txt {
+    font-size: 33px;
+    font-weight: bold;
+    
+}
+.full-txt {
+    font-size: 20px;
+    margin-top: -17px;
+}
+.txt-black {
+    color: #4a4a4a;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 37px;
+}
+.txt-blue {
+    color: #325094;
+    font-size: 21px;
+    font-weight: 600;
+}
+.cont-label select, .cont-label textarea, .cont-label input{
+    border:0;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+}
+.cont-label .form-group {
+    margin-top: 20px;
+}
+.cont-submit, .cont-label textarea {
+    margin-bottom: 20px;
+}
+.cont-submit .btn-default {
+    background-color: #234791;
+    border: 0 none;
+    color: #fff;
+    text-transform: uppercase;
+    width: 76%;
+}
+.cont-tab-block .panel-heading  {
+    background: #234791;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+.cont-tab-block .panel-heading .panel-title{
+    background-color: #E9BB2A;
+    padding: 10px;
+    width: 230px;
+    position: relative;
+}
+.cont-tab-block .panel-heading .panel-title::after{
+    border-bottom: 18px solid transparent;
+    border-left: 20px solid #e9bb2a;
+    border-top: 20px solid transparent;
+    content: " ";
+    height: 0;
+    left: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 0;
+    
+}
+.side-panel {
+    margin-top: 20px;
+}
+/*==========================CONTACT END======================================*/
+/*==========================ABOUT US======================================*/
+
+.txt-blue {
+    color: #325094;
+    font-size: 21px;
+    font-weight: 600;
+}
+.middle-cnt .nav-scrol-block {
+    background-color: transparent;
+    border-radius: 0;
+    position: absolute;
+    top: 367px;
+    width: 100%;
+}
+/*==========================ABOUT US END======================================*/
+/*==========================FOOTER======================================*/
+.footer a {
+    color: #868687;
+}
+.footer {
+    background: #24272e none repeat scroll 0 0;
+    border: medium none;
+    color: #ced5da;
+    padding-bottom: 0;
+    padding-top: 35px;
+}
+.footer-bottom {
+    background: #2d2d2d none repeat scroll 0 0;
+    color: #646464;
+    margin-top: 20px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.footer-top h2.block-title {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#footer-top {
+    color: #868687;
+}
+#block-copyright-footer .field > p {
+    font-size: 12px;
+}
+#block-contact-us-footer span.list-contents {
+    display: flex;
+}
+#block-contact-us-footer ul li {
+    margin-bottom: 6px;
+}
+#block-contact-us-footer span.glyphicon {
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.region-footer-top .block .menu li {
+    float: left;
+    width: 40%;
+}
+.region-footer-top .block .menu li a {
+    padding: 5px 0;
+}
+.region-footer-top .block .menu li a:hover {
+    background-color: transparent;
+}
+.region-footer-top .block .menu li a::before {
+    content: "";
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-size: 10px;
+    padding-right: 12px;
+}
+footer .social-menu {
+    float: right;
+}
+footer .social-menu li {
+    padding: 0 1px;
+}
+footer .social-menu li > a {
+    background-color: #234692;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 0;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    width: 30px;
+}
+footer .social-menu li a::before {
+    bottom: 0;
+    color: #fff;
+    font: 14px/30px FontAwesome;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-decoration: inherit;
+    top: 0;
+}
+footer .social-menu li a.facebook-icon::before {
+    content: "";
+}
+footer .social-menu li a.twitter-icon::before {
+    content: "";
+}
+footer .social-menu li a.google-plus-icon::before {
+    content: "";
+}
+footer .social-menu li a.linkedin-icon::before {
+    content: "";
+}
+
+/*==========================FOOTER END======================================*/
+
+
+
